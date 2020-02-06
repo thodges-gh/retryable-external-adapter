@@ -1,0 +1,5 @@
+# Set for local testing
+export DEV=true
+export RETRY_DELAY=0
+
+export API_KEY=abcdefg1234567

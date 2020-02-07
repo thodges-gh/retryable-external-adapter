@@ -27,13 +27,27 @@ Now make changes to the adapter to suit your needs. There are test helpers inclu
 ## Install
 
 ```bash
-npm install
+yarn install
 ```
 
 ## Test
 
 ```bash
-npm test
+yarn test
+```
+
+## Docker
+
+If you wish to use Docker to run the adapter, you can build the image by running the following command:
+
+```bash
+docker build . -t retryable-adapter
+```
+
+Then run it with:
+
+```bash
+docker run -it retryable-adapter:latest
 ```
 
 ## Create the zip

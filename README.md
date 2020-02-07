@@ -24,6 +24,24 @@ rm -rf .git
 
 Now make changes to the adapter to suit your needs. There are test helpers included in `test/helpers/` so that you can mock responses from the endpoint without having to hit the API each time you run tests.
 
+## Input Params
+
+- `coin`: The asset to query
+- `market`: The currency to convert to
+
+## Output Format
+
+```json
+{
+ "jobRunID": "278c97ffadb54a5bbb93cfec5f7b5503",
+ "data": {
+  "USD": 8
+ },
+ "statusCode": 200
+}
+
+```
+
 ## Install
 
 ```bash

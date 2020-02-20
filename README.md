@@ -65,7 +65,7 @@ docker build . -t retryable-adapter
 Then run it with:
 
 ```bash
-docker run -it retryable-adapter:latest
+docker run -p 8080:8080 -it retryable-adapter:latest
 ```
 
 ## Create the zip
